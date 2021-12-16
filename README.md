@@ -33,6 +33,26 @@ considered continuous as one can have any number of cigarettes, even half a ciga
 Medical(current)
 * Tot Chol: total cholesterol level (Continuous)
 * Sys BP: systolic blood pressure (Continuous)
+
+## Approach:-
+### Data preparation:
+•	Removed null values from the dataset
+
+•	Removed duplicate entries
+
+•	Used SMOTE and random under sampling to get a balanced dataset
+
+### Feature engineering:
+•	Extracted feature ‘Hypertension’ from systolic and diastolic blood pressure data
+
+•	Extracted feature ‘Diabetese severity’ from diabetes and glucose column
+
+•	Constructed new feature ‘Smoking Factor’ from number of cigarettes consumption
+
+
+## Conclusion:-
+
+Using XGBoost and finetuning parameters with grid search and cross-validation I got a Recall of 94%
 * Dia BP: diastolic blood pressure (Continuous)
 * BMI: Body Mass Index (Continuous)
 * Heart Rate: heart rate (Continuous - In medical research, variables such as heart rate though in
