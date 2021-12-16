@@ -33,6 +33,15 @@ considered continuous as one can have any number of cigarettes, even half a ciga
 Medical(current)
 * Tot Chol: total cholesterol level (Continuous)
 * Sys BP: systolic blood pressure (Continuous)
+* Dia BP: diastolic blood pressure (Continuous)
+* BMI: Body Mass Index (Continuous)
+* Heart Rate: heart rate (Continuous - In medical research, variables such as heart rate though in
+fact discrete, yet are considered continuous because of large number of possible values.)
+* Glucose: glucose level (Continuous)
+Predict variable (desired target) 
+
+**10-year risk of coronary heart disease CHD(binary: “1”, means “Yes”, “0” means “No”) -DV**
+
 
 ## Approach:-
 ### Data preparation:
@@ -53,11 +62,3 @@ Medical(current)
 ## Conclusion:-
 
 Using XGBoost and finetuning parameters with grid search and cross-validation I got a Recall of 94%
-* Dia BP: diastolic blood pressure (Continuous)
-* BMI: Body Mass Index (Continuous)
-* Heart Rate: heart rate (Continuous - In medical research, variables such as heart rate though in
-fact discrete, yet are considered continuous because of large number of possible values.)
-* Glucose: glucose level (Continuous)
-Predict variable (desired target) 
-
-**10-year risk of coronary heart disease CHD(binary: “1”, means “Yes”, “0” means “No”) -DV**
