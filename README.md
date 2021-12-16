@@ -27,16 +27,25 @@ considered continuous as one can have any number of cigarettes, even half a ciga
 
 ### **Medical( history)**
 **BP Meds**: whether or not the patient was on blood pressure medication (Nominal)
+
 **Prevalent Stroke**: whether or not the patient had previously had a stroke (Nominal)
+
 **Prevalent Hyp**: whether or not the patient was hypertensive (Nominal)
+
 **Diabetes**: whether or not the patient had diabetes (Nominal)
 Medical(current)
+
 **Tot Chol**: total cholesterol level (Continuous)
+
 **Sys BP**: systolic blood pressure (Continuous)
+
 **Dia BP**: diastolic blood pressure (Continuous)
+
 **BMI**: Body Mass Index (Continuous)
+
 **Heart Rate**: heart rate (Continuous - In medical research, variables such as heart rate though in
 fact discrete, yet are considered continuous because of large number of possible values.)
+
 **Glucose**: glucose level (Continuous)
 Predict variable (desired target) 
 
