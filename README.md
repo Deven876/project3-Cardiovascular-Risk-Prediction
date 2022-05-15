@@ -1,6 +1,6 @@
 # project3-Cardiovascular-Risk-Prediction
 
-## <b> Problem Description </b>
+## 📋 <b> Problem Description </b>
 
 The dataset is from an ongoing cardiovascular study on residents of the town of Framingham,
 Massachusetts.
@@ -14,7 +14,9 @@ Variables
 Each attribute is a potential risk factor. There are both demographic, behavioral, and medical risk
 factors.
 
-## <b> Data Description </b>
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+## 📋 <b> Data Description </b>
 
 ### **Demographic:**
 * Sex: male or female("M" or "F")
@@ -51,8 +53,9 @@ Predict variable (desired target)
 
 **10-year risk of coronary heart disease CHD(binary: “1”, means “Yes”, “0” means “No”) -DV**
 
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-## Approach:-
+## 📖 Approach:-
 ### Data preparation:
 •	Removed null values from the dataset
 
@@ -67,7 +70,49 @@ Predict variable (desired target)
 
 •	Constructed new feature ‘Smoking Factor’ from number of cigarettes consumption
 
+### Algorithms 
+• KNN
 
-## Conclusion:-
+• Logistic Regression
+
+• Decision Tree
+
+• Gradient Boost
+
+• XGBoost
+
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+## 📖 XGBoost
+XGBoost (extreme Gradient Boosting) is an advanced implementation of the gradient boosting algorithm. XGBoost has proved to be a highly effective ML algorithm, extensively used in machine learning competitions and hackathons. XGBoost has high predictive power and is almost 10 times faster than the other gradient boosting techniques. It also includes a variety of regularization which reduces overfitting and improves overall performance.
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+## 📋 Conclusion:-
 
 Using XGBoost and finetuning parameters with grid search and cross-validation I got a Recall of 94%
+- 
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+<h2 id="credits"> :scroll: Credits</h2>
+
+< Devendra Bhangale > | Avid Learner | Data Scientist | Machine Learning Engineer | Deep Learning enthusiast
+
+<p> <i> Contact me for Data Science Project Collaborations</i></p>
+
+[![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/devendra-bhangale-b326a1169/)
+[![GitHub Badge](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Deven876)
+[![Medium Badge](https://img.shields.io/badge/Medium-1DA1F2?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@devabhangale)
+[![Resume Badge](https://img.shields.io/badge/resume-0077B5?style=for-the-badge&logo=resume&logoColor=white)]()
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+## 📚 References
+1. Coronary Heart Disease - https://www.medicalnewstoday.com/articles/184130
+2. Pulse Pressure - https://www.mayoclinic.org/diseases-conditions/high-blood-pressure/expert-answers/pulse-pressure/faq-20058189#:~:text=The%20top%20number%20(systolic)%20minus,40%20mm%20Hg%20is%20unhealthy.
+3. Using SMOTE - https://machinelearningmastery.com/smote-oversampling-for-imbalanced-classification/
+4. XGBoost Documentation - https://xgboost.readthedocs.io/en/stable/
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
